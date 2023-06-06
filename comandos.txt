@@ -1,0 +1,29 @@
+$ code .
+$ git init
+$ git remote add origin https://github.com/LuisaFParedes14/20230605-LuisaFernandaParedesErazo.git
+$ git remote -v
+$ touch comandos.txt main.js index.html
+$ git status
+
+
+
+$ git add .
+$ git status
+$ git commit -m "commit 01 de LuisaFernandaParedesErazo"
+$ git push origin main
+$ git branch feature
+$ git branch
+$ git checkout feature
+$ git branch
+$ mkdir Hardware Software SeguridadInformatica
+$ touch Hardware/resumen.txt
+$ touch SeguridadInformatica/resumen.txt
+$ touch Software/resumen.txt
+$ git status
+$ git add .
+$ git status
+$ git commit -m "commit 02 de Luisa Fernanda Paredes Erazo"
+$ git push origin feature
+$ git checkout main
+$ mv main.js resumenHardware.txt
+$ mv index.html resumenSoftware.txt
